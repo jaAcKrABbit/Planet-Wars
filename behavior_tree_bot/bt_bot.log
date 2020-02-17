@@ -1,0 +1,1228 @@
+INFO:root:
+Selector: High Level Ordering of Strategies
+| Sequence: Defensive Strategy
+| | Check: if_enemy_attacking
+| | Action: defend_attacking
+| Sequence: Spread Strategy
+| | Action: spread_everywhere
+| Action: aggressive_attack
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Order:1 11 26.0
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Order:1 12 26.0
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Order:1 7 27.0
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Order:1 8 27.0
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Bad order:1 24.0 30.0
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Bad order:1 29.0 30.0
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 7 30
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 7 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 7 2
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 7 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 7 2
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 12 17
+DEBUG:root:Bad order:7 11.0 14
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:7 12 13
+DEBUG:root:Order:1 12 2
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:11 7 2
+DEBUG:root:Order:11 12 2
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 7 2
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 7 1
+DEBUG:root:Order:1 11 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Order:11 17 12.0
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 11 6
+DEBUG:root:Order:7 11 3
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 7 1
+DEBUG:root:Order:1 11 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 7 1
+DEBUG:root:Order:1 11 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 7 1
+DEBUG:root:Order:1 11 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 17 17
+DEBUG:root:Order:7 17 11
+DEBUG:root:Order:11 17 11
+DEBUG:root:Order:8 17 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 17 2
+DEBUG:root:Order:1 7 2
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:12 8 1
+DEBUG:root:Order:12 11 1
+DEBUG:root:Order:12 17 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:1 18 20.0
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:7 1 3
+DEBUG:root:Order:12 1 3
+DEBUG:root:Order:8 1 2
+DEBUG:root:Order:11 1 2
+DEBUG:root:Order:17 1 2
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 7 3
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 8 1
+DEBUG:root:Order:1 11 1
+DEBUG:root:Order:1 12 1
+DEBUG:root:Order:1 17 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Order:11 3 16.0
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 11 4
+DEBUG:root:Order:7 11 4
+DEBUG:root:Order:8 11 2
+DEBUG:root:Order:12 11 2
+DEBUG:root:Order:17 11 2
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 7 2
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:1 4 20.0
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:7 1 4
+DEBUG:root:Order:8 1 2
+DEBUG:root:Order:11 1 2
+DEBUG:root:Order:12 1 2
+DEBUG:root:Order:17 1 2
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 18 12
+DEBUG:root:Order:7 18 8
+DEBUG:root:Order:8 18 8
+DEBUG:root:Order:11 18 1
+DEBUG:root:Order:11 17 8
+DEBUG:root:Order:12 17 6
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 11 1
+DEBUG:root:Order:1 17 1
+DEBUG:root:Order:1 18 1
+DEBUG:root:Order:1 7 2
+DEBUG:root:Order:12 7 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:7 3 6
+DEBUG:root:Order:1 3 4
+DEBUG:root:Order:12 3 4
+DEBUG:root:Order:8 3 3
+DEBUG:root:Order:11 3 3
+DEBUG:root:Order:17 3 3
+DEBUG:root:Order:18 3 3
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 3 3
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 3 5
+DEBUG:root:Order:7 3 2
+DEBUG:root:Order:8 3 2
+DEBUG:root:Order:11 3 2
+DEBUG:root:Order:12 3 2
+DEBUG:root:Order:17 3 2
+DEBUG:root:Order:18 3 2
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 3 3
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 4 7
+DEBUG:root:Order:7 4 4
+DEBUG:root:Order:8 4 4
+DEBUG:root:Order:11 4 4
+DEBUG:root:Order:12 4 4
+DEBUG:root:Order:17 4 4
+DEBUG:root:Order:18 4 4
+DEBUG:root:Order:3 4 2
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 3 2
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 4 3
+DEBUG:root:Order:3 4 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 7 1
+DEBUG:root:Order:1 8 1
+DEBUG:root:Order:1 11 1
+DEBUG:root:Order:1 12 1
+DEBUG:root:Order:1 17 1
+DEBUG:root:Order:1 18 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:12 19 10.0
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:4 12 3
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 19 7
+DEBUG:root:Order:3 19 4
+DEBUG:root:Order:4 19 4
+DEBUG:root:Order:7 19 4
+DEBUG:root:Order:8 19 4
+DEBUG:root:Order:11 19 4
+DEBUG:root:Order:17 19 4
+DEBUG:root:Order:18 19 4
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:8 2 39.0
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 8 19
+DEBUG:root:Order:19 8 9
+DEBUG:root:Order:3 8 4
+DEBUG:root:Order:4 8 4
+DEBUG:root:Order:7 8 4
+DEBUG:root:Order:11 8 4
+DEBUG:root:Order:17 8 4
+DEBUG:root:Order:18 8 4
+DEBUG:root:Order:12 8 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 8 2
+DEBUG:root:Order:19 8 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 2 6
+DEBUG:root:Order:19 2 5
+DEBUG:root:Order:3 2 2
+DEBUG:root:Order:4 2 2
+DEBUG:root:Order:7 2 2
+DEBUG:root:Order:11 2 2
+DEBUG:root:Order:12 2 2
+DEBUG:root:Order:17 2 2
+DEBUG:root:Order:18 2 2
+DEBUG:root:Order:8 2 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:1 3 2
+DEBUG:root:Order:2 3 2
+DEBUG:root:Order:19 3 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Success
+DEBUG:root:Executing:Action: defend_attacking
+DEBUG:root:Order:3 4 1
+DEBUG:root:Order:3 7 1
+DEBUG:root:Order:3 8 1
+DEBUG:root:Order:3 11 1
+DEBUG:root:Order:3 12 1
+DEBUG:root:Order:3 17 1
+DEBUG:root:Order:3 18 1
+DEBUG:root:Result: Action: defend_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Bad order:3 31.0 39.0
+DEBUG:root:Bad order:19 37.0 42.0
+DEBUG:root:Bad order:2 41.0 42.0
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Bad order:3 36.0 39.0
+DEBUG:root:Bad order:19 41.0 42.0
+DEBUG:root:Order:4 22 42.0
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Order:3 20 34.0
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Bad order:4 32.0 42.0
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Bad order:4 35.0 42.0
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_enemy_attacking
+DEBUG:root:Result: Check: if_enemy_attacking -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Action: spread_everywhere
+DEBUG:root:Result: Action: spread_everywhere -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: aggressive_attack
+DEBUG:root:Result: Action: aggressive_attack -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
